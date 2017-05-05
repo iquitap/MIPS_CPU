@@ -1,0 +1,144 @@
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (win64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Wed Mar 08 23:16:15 2017
+| Host         : zhou-PC running 64-bit major release  (build 9200)
+| Command      : report_drc
+------------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+           Ruledeck: default
+             Max violations: <unlimited>
+             Violations found: 16
+
+2. REPORT DETAILS
+-----------------
+BIVB-1#1 Error
+Bank IO standard Support  - IOBank:37
+Bank 37 has incompatible IO(s) because: The LVCMOS33 I/O standard is not supported.  Move the following ports or change their properties:  
+out[6]
+Related violations: <none>
+
+BIVB-1#2 Error
+Bank IO standard Support  - IOBank:38
+Bank 38 has incompatible IO(s) because: The LVCMOS33 I/O standard is not supported.  Move the following ports or change their properties:  
+choose and clear
+Related violations: <none>
+
+BIVB-1#3 Error
+Bank IO standard Support  - IOBank:38
+Bank 38 has incompatible IO(s) because: The LVCMOS33 I/O standard is not supported.  Move the following ports or change their properties:  
+control[0], control[3], out[2] and out[7]
+Related violations: <none>
+
+BIVB-1#4 Error
+Bank IO standard Support  - IOBank:39
+Bank 39 has incompatible IO(s) because: The LVCMOS33 I/O standard is not supported.  Move the following ports or change their properties:  
+out[3]
+Related violations: <none>
+
+PLCK-12#1 Error
+Clock Placer Checks  
+Poor placement for routing between an IO pin and BUFG. 
+Resolution: Poor placement of an IO pin and a BUFG has resulted in the router using a non-dedicated path between the two.  There are several things that could trigger this DRC, each of which can cause unpredictable clock insertion delays that result in poor timing.  This DRC could be caused by any of the following: (a) a clock port was placed on a pin that is not a CCIO-pin (b)the BUFG has not been placed in the same half of the device or SLR as the CCIO-pin (c) a single ended clock has been placed on the N-Side of a differential pair CCIO-pin.
+If this sub optimal condition is acceptable for this design, you may use the CLOCK_DEDICATED_ROUTE constraint in the .xdc file to demote this message to a WARNING. However, the use of this override is highly discouraged. These examples can be used directly in the .xdc file to override this clock rule.
+	< set_property CLOCK_DEDICATED_ROUTE FALSE [get_nets clk_IBUF] >
+
+	clk_IBUF_inst (IBUF.O) is locked to E3
+	clk_IBUF_BUFG_inst (BUFG.I) cannot be placed
+
+Related violations: <none>
+
+PLIOSTD-1#1 Error
+IOSTANDARD violations  
+This design has IO with an IOSTANDARD of LVCMOS33 but the target device has no High Range (HR) banks that support this IO standard. Please review the 7 series FPGAs Packaging and Pinout guide for devices/packages that have High Range (HR) banks or change the IO standard for the following IO:     choose
+    clear
+    control[0]
+    control[1]
+    control[2]
+    control[3]
+    control[4]
+    control[5]
+    control[6]
+    control[7]
+    out[0]
+    out[1]
+    out[2]
+    out[3]
+    out[4]
+    out[5]
+    out[6]
+    out[7]
+
+Related violations: <none>
+
+CFGBVS-1#1 Warning
+Missing CFGBVS and CONFIG_VOLTAGE Design Properties  
+Neither the CFGBVS nor CONFIG_VOLTAGE voltage property is set in the current_design.  Configuration bank voltage select (CFGBVS) must be set to VCCO or GND, and CONFIG_VOLTAGE must be set to the correct configuration voltage, in order to determine the I/O voltage support for the pins in bank 0.  It is suggested to specify these either using the 'Edit Device Properties' function in the GUI or directly in the XDC file using the following syntax:
+
+ set_property CFGBVS value1 [current_design]
+ #where value1 is either VCCO or GND
+
+ set_property CONFIG_VOLTAGE value2 [current_design]
+ #where value2 is the voltage provided to configuration bank 0
+
+Refer to the device configuration user guide for more information.
+Related violations: <none>
+
+DPIP-1#1 Warning
+Input pipelining  
+DSP main_/alu_/Result0 input A B is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#2 Warning
+Input pipelining  
+DSP main_/alu_/Result0__0 input A B is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#3 Warning
+Input pipelining  
+DSP main_/alu_/Result0__1 input B is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPOP-1#1 Warning
+Output pipelining  
+DSP main_/alu_/Result0 output P is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#2 Warning
+Output pipelining  
+DSP main_/alu_/Result0__0 output P is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#3 Warning
+Output pipelining  
+DSP main_/alu_/Result0__1 output P is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+PLIO-3#1 Warning
+Placement Constraints Check for IO constraints  
+Partially locked IO Bus is found. Following components of the IO Bus control[7:0] are not locked:  control[7] control[6] control[5] control[4] control[2] control[1]
+Related violations: <none>
+
+PLIO-3#2 Warning
+Placement Constraints Check for IO constraints  
+Partially locked IO Bus is found. Following components of the IO Bus out[7:0] are not locked:  out[5] out[4] out[1] out[0]
+Related violations: <none>
+
+UCIO-1#1 Warning
+Unconstrained Logical Port  
+10 out of 19 logical ports have no user assigned specific location constraint (LOC). This may cause I/O contention or incompatibility with the board power or connectivity affecting performance, signal integrity or in extreme cases cause damage to the device or the components to which it is connected. To correct this violation, specify all pin locations. This design will fail to generate a bitstream unless all logical ports have a user specified site LOC constraint defined.  To allow bitstream creation with unspecified pin locations (not recommended), use this command: set_property SEVERITY {Warning} [get_drc_checks UCIO-1].  NOTE: When using the Vivado Runs infrastructure (e.g. launch_runs Tcl command), add this command to a .tcl file and add that file as a pre-hook for write_bitstream step for the implementation run.  Problem ports: control[7:0], out[7:0].
+Related violations: <none>
+
+

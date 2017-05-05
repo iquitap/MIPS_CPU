@@ -1,0 +1,7 @@
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: G:/vivado/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto 24e3d4e662a044d994111b8622bc123f --debug typical --relax --mt 2 --maxdelay -L xil_defaultlib -L simprims_ver -L secureip --snapshot main_tb_time_synth -transport_int_delays -pulse_r 0 -pulse_int_r 0 xil_defaultlib.main_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-2063] Module <main> not found while processing module instance <DUT> [C:/Users/zhou/Desktop/cpu/cpu.srcs/sim_1/new/main_tb.v:28]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.

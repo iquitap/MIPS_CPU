@@ -1,0 +1,74 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zhou/Desktop/cpu/cpu.srcs/sources_1/new/rom3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rom3
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zhou/Desktop/cpu/cpu.srcs/sources_1/new/rom2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rom2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zhou/Desktop/cpu/cpu.srcs/sources_1/new/rom1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rom1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zhou/Desktop/cpu/cpu.srcs/sources_1/new/rom0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rom0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zhou/Desktop/cpu/cpu.srcs/sources_1/new/register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module register
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zhou/Desktop/cpu/cpu.srcs/sources_1/new/mux2_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zhou/Desktop/cpu/cpu.srcs/sources_1/new/bht.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bht
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zhou/Desktop/cpu/cpu.srcs/sources_1/new/pc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pc
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zhou/Desktop/cpu/cpu.srcs/sources_1/new/singal3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module singal3
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zhou/Desktop/cpu/cpu.srcs/sources_1/new/singal2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module singal2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zhou/Desktop/cpu/cpu.srcs/sources_1/new/singal.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module singal
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zhou/Desktop/cpu/cpu.srcs/sources_1/new/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zhou/Desktop/cpu/cpu.srcs/sources_1/new/ram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zhou/Desktop/cpu/cpu.srcs/sources_1/new/pcc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pcc
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zhou/Desktop/cpu/cpu.srcs/sources_1/new/MEM_WB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEM_WB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zhou/Desktop/cpu/cpu.srcs/sources_1/new/load_nop.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module load_nop
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zhou/Desktop/cpu/cpu.srcs/sources_1/new/instruction.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instruction
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zhou/Desktop/cpu/cpu.srcs/sources_1/new/IF_ID.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IF_ID
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zhou/Desktop/cpu/cpu.srcs/sources_1/new/ie.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ie
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zhou/Desktop/cpu/cpu.srcs/sources_1/new/ID_EX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ID_EX
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zhou/Desktop/cpu/cpu.srcs/sources_1/new/halt.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module halt
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zhou/Desktop/cpu/cpu.srcs/sources_1/new/EX_MEM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EX_MEM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zhou/Desktop/cpu/cpu.srcs/sources_1/new/epc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module epc
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zhou/Desktop/cpu/cpu.srcs/sources_1/new/count.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module count
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zhou/Desktop/cpu/cpu.srcs/sources_1/new/control_int.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_int
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zhou/Desktop/cpu/cpu.srcs/sources_1/new/control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zhou/Desktop/cpu/cpu.srcs/sources_1/new/cacl_pc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cacl_pc
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zhou/Desktop/cpu/cpu.srcs/sources_1/new/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zhou/Desktop/cpu/cpu.srcs/sources_1/new/interupt.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module interupt
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zhou/Desktop/cpu/cpu.srcs/sources_1/new/scan.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module scan
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zhou/Desktop/cpu/cpu.srcs/sources_1/new/frac.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module frac
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zhou/Desktop/cpu/cpu.srcs/sources_1/new/display.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module display
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zhou/Desktop/cpu/cpu.srcs/sources_1/new/choose.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module choose
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zhou/Desktop/cpu/cpu.srcs/sources_1/new/main.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module main
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zhou/Desktop/cpu/cpu.srcs/sources_1/new/all.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module all
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zhou/Desktop/cpu/cpu.srcs/sim_1/new/all_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module all_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zhou/Desktop/cpu/cpu.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

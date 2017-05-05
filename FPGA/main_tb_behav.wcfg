@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="main_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="main_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="41" />
+   <wvobject db_ref_id="1" fp_name="/main_tb/clkk" type="logic">
+      <obj_property name="ElementShortName">clkk</obj_property>
+      <obj_property name="ObjectShortName">clkk</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/main_tb/IR0" type="logic">
+      <obj_property name="ElementShortName">IR0</obj_property>
+      <obj_property name="ObjectShortName">IR0</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/main_tb/IR1" type="logic">
+      <obj_property name="ElementShortName">IR1</obj_property>
+      <obj_property name="ObjectShortName">IR1</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/main_tb/IR2" type="logic">
+      <obj_property name="ElementShortName">IR2</obj_property>
+      <obj_property name="ObjectShortName">IR2</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/main_tb/DUT/count_bht_fail" type="array">
+      <obj_property name="ElementShortName">count_bht_fail[31:0]</obj_property>
+      <obj_property name="ObjectShortName">count_bht_fail[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/main_tb/DUT/count_branch" type="array">
+      <obj_property name="ElementShortName">count_branch[31:0]</obj_property>
+      <obj_property name="ObjectShortName">count_branch[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/main_tb/DUT/count_hit" type="array">
+      <obj_property name="ElementShortName">count_hit[31:0]</obj_property>
+      <obj_property name="ObjectShortName">count_hit[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/main_tb/out" type="array">
+      <obj_property name="ElementShortName">out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">out[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/main_tb/a0" type="array">
+      <obj_property name="ElementShortName">a0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">a0[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/main_tb/DUT/bht_fail" type="logic">
+      <obj_property name="ElementShortName">bht_fail</obj_property>
+      <obj_property name="ObjectShortName">bht_fail</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/main_tb/DUT/valid_out" type="logic">
+      <obj_property name="ElementShortName">valid_out</obj_property>
+      <obj_property name="ObjectShortName">valid_out</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/main_tb/DUT/valid_out2" type="logic">
+      <obj_property name="ElementShortName">valid_out2</obj_property>
+      <obj_property name="ObjectShortName">valid_out2</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/main_tb/DUT/mux3_IF/in_0" type="array">
+      <obj_property name="ElementShortName">in_0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">in_0[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/main_tb/DUT/mux3_IF/in_1" type="array">
+      <obj_property name="ElementShortName">in_1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">in_1[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/main_tb/DUT/mux3_IF/choose" type="logic">
+      <obj_property name="ElementShortName">choose</obj_property>
+      <obj_property name="ObjectShortName">choose</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/main_tb/DUT/mux3_IF/out" type="array">
+      <obj_property name="ElementShortName">out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">out[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/main_tb/DUT/mux3_IF/WIDTH" type="array">
+      <obj_property name="ElementShortName">WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/main_tb/DUT/instruction_/instruction" type="array">
+      <obj_property name="ElementShortName">instruction[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instruction[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/main_tb/DUT/instruction_/addr" type="array">
+      <obj_property name="ElementShortName">addr[9:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[9:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/main_tb/DUT/bht_/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/main_tb/DUT/bht_/pc_id" type="array">
+      <obj_property name="ElementShortName">pc_id[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_id[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/main_tb/DUT/bht_/pc_ex" type="array">
+      <obj_property name="ElementShortName">pc_ex[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_ex[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/main_tb/DUT/bht_/hit" type="logic">
+      <obj_property name="ElementShortName">hit</obj_property>
+      <obj_property name="ObjectShortName">hit</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/main_tb/DUT/bht_/branch_addr_in" type="array">
+      <obj_property name="ElementShortName">branch_addr_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">branch_addr_in[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/main_tb/DUT/bht_/branch_ex" type="logic">
+      <obj_property name="ElementShortName">branch_ex</obj_property>
+      <obj_property name="ObjectShortName">branch_ex</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/main_tb/DUT/bht_/j_ex" type="logic">
+      <obj_property name="ElementShortName">j_ex</obj_property>
+      <obj_property name="ObjectShortName">j_ex</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/main_tb/DUT/bht_/branch_addr_out" type="array">
+      <obj_property name="ElementShortName">branch_addr_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">branch_addr_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/main_tb/DUT/bht_/valid_out" type="logic">
+      <obj_property name="ElementShortName">valid_out</obj_property>
+      <obj_property name="ObjectShortName">valid_out</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/main_tb/DUT/bht_/bht_pc" type="array">
+      <obj_property name="ElementShortName">bht_pc[7:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">bht_pc[7:0][31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/main_tb/DUT/bht_/bht_branch_addr" type="array">
+      <obj_property name="ElementShortName">bht_branch_addr[7:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">bht_branch_addr[7:0][31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/main_tb/DUT/bht_/bht_valid" type="array">
+      <obj_property name="ElementShortName">bht_valid[7:0][0:0]</obj_property>
+      <obj_property name="ObjectShortName">bht_valid[7:0][0:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/main_tb/DUT/bht_/bht_state" type="array">
+      <obj_property name="ElementShortName">bht_state[7:0][1:0]</obj_property>
+      <obj_property name="ObjectShortName">bht_state[7:0][1:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/main_tb/DUT/bht_/LRU_count" type="array">
+      <obj_property name="ElementShortName">LRU_count[7:0][2:0]</obj_property>
+      <obj_property name="ObjectShortName">LRU_count[7:0][2:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/main_tb/DUT/bht_/index_id" type="array">
+      <obj_property name="ElementShortName">index_id[3:0]</obj_property>
+      <obj_property name="ObjectShortName">index_id[3:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/main_tb/DUT/bht_/index_ex" type="array">
+      <obj_property name="ElementShortName">index_ex[3:0]</obj_property>
+      <obj_property name="ObjectShortName">index_ex[3:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/main_tb/DUT/bht_/bht_index_choose" type="array">
+      <obj_property name="ElementShortName">bht_index_choose[3:0]</obj_property>
+      <obj_property name="ObjectShortName">bht_index_choose[3:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/main_tb/DUT/pc_in" type="array">
+      <obj_property name="ElementShortName">pc_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_in[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/main_tb/DUT/pc_0" type="array">
+      <obj_property name="ElementShortName">pc_0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_0[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/main_tb/DUT/PC" type="array">
+      <obj_property name="ElementShortName">PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/main_tb/DUT/PC2" type="array">
+      <obj_property name="ElementShortName">PC2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC2[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/main_tb/DUT/PC3" type="array">
+      <obj_property name="ElementShortName">PC3[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC3[31:0]</obj_property>
+   </wvobject>
+</wave_config>

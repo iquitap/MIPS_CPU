@@ -1,0 +1,129 @@
+
+*** Running vivado
+    with args -log all.vdi -applog -m64 -messageDb vivado.pb -mode batch -source all.tcl -notrace
+
+WARNING: Default location for XILINX_VIVADO_HLS not found: 
+
+****** Vivado v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source all.tcl -notrace
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Netlist 29-17] Analyzing 486 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2015.2
+INFO: [Device 21-403] Loading part xc7vx485tffg1157-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [C:/Users/zhou/Desktop/cpu_new/cpu.srcs/constrs_1/new/all_xdc.xdc]
+CRITICAL WARNING: [Vivado 12-1815] Setting property 'IOSTANDARD' is not allowed for GT terminals. [C:/Users/zhou/Desktop/cpu_new/cpu.srcs/constrs_1/new/all_xdc.xdc:9]
+CRITICAL WARNING: [Common 17-69] Command failed: 'J18' is not a valid site or package pin name. [C:/Users/zhou/Desktop/cpu_new/cpu.srcs/constrs_1/new/all_xdc.xdc:17]
+CRITICAL WARNING: [Common 17-69] Command failed: 'T9' is not a valid site or package pin name. [C:/Users/zhou/Desktop/cpu_new/cpu.srcs/constrs_1/new/all_xdc.xdc:19]
+CRITICAL WARNING: [Common 17-69] Command failed: 'P14' is not a valid site or package pin name. [C:/Users/zhou/Desktop/cpu_new/cpu.srcs/constrs_1/new/all_xdc.xdc:23]
+CRITICAL WARNING: [Common 17-69] Command failed: 'T14' is not a valid site or package pin name. [C:/Users/zhou/Desktop/cpu_new/cpu.srcs/constrs_1/new/all_xdc.xdc:25]
+CRITICAL WARNING: [Vivado 12-1411] Cannot set LOC property of ports, Site location is not valid [C:/Users/zhou/Desktop/cpu_new/cpu.srcs/constrs_1/new/all_xdc.xdc:27]
+Resolution: Verify the location constraints for differential ports are correctly specified in your constraints. The Site type should be of form: IO_LxxP for P-side, and IO_LxxN for N-side (Neg Diff Pair) 
+CRITICAL WARNING: [Common 17-69] Command failed: 'U13' is not a valid site or package pin name. [C:/Users/zhou/Desktop/cpu_new/cpu.srcs/constrs_1/new/all_xdc.xdc:29]
+CRITICAL WARNING: [Common 17-69] Command failed: 'T10' is not a valid site or package pin name. [C:/Users/zhou/Desktop/cpu_new/cpu.srcs/constrs_1/new/all_xdc.xdc:32]
+CRITICAL WARNING: [Common 17-69] Command failed: 'R10' is not a valid site or package pin name. [C:/Users/zhou/Desktop/cpu_new/cpu.srcs/constrs_1/new/all_xdc.xdc:34]
+CRITICAL WARNING: [Common 17-69] Command failed: 'P15' is not a valid site or package pin name. [C:/Users/zhou/Desktop/cpu_new/cpu.srcs/constrs_1/new/all_xdc.xdc:40]
+CRITICAL WARNING: [Common 17-69] Command failed: 'T11' is not a valid site or package pin name. [C:/Users/zhou/Desktop/cpu_new/cpu.srcs/constrs_1/new/all_xdc.xdc:42]
+Finished Parsing XDC File [C:/Users/zhou/Desktop/cpu_new/cpu.srcs/constrs_1/new/all_xdc.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 128 instances were transformed.
+  RAM256X1S => RAM256X1S (MUXF7, MUXF7, MUXF8, RAMS64E, RAMS64E, RAMS64E, RAMS64E): 128 instances
+
+link_design: Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 626.070 ; gain = 408.742
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7vx485t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7vx485t'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.328 . Memory (MB): peak = 629.633 ; gain = 1.266
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Starting Logic Optimization Task
+
+Phase 1 Retarget
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: 1b6dd222f
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.625 . Memory (MB): peak = 1162.473 ; gain = 0.000
+
+Phase 2 Constant Propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-10] Eliminated 0 cells.
+Phase 2 Constant Propagation | Checksum: 20d808d48
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1162.473 ; gain = 0.000
+
+Phase 3 Sweep
+INFO: [Opt 31-12] Eliminated 1128 unconnected nets.
+INFO: [Opt 31-11] Eliminated 0 unconnected cells.
+Phase 3 Sweep | Checksum: 1a73f567a
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1162.473 ; gain = 0.000
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.015 . Memory (MB): peak = 1162.473 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: 1a73f567a
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1162.473 ; gain = 0.000
+Implement Debug Cores | Checksum: 124df2073
+Logic Optimization | Checksum: 124df2073
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 3.13 ns.
+Ending Power Optimization Task | Checksum: 1a73f567a
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.063 . Memory (MB): peak = 1162.473 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+20 Infos, 0 Warnings, 11 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:36 ; elapsed = 00:00:39 . Memory (MB): peak = 1162.473 ; gain = 536.402
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.328 . Memory (MB): peak = 1162.473 ; gain = 0.000
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file C:/Users/zhou/Desktop/cpu_new/cpu.runs/impl_1/all_drc_opted.rpt.
+report_drc: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1258.727 ; gain = 96.254
+INFO: [#UNDEF] Cannot write hardware definition file as there are no IPI block design hardware handoff files present
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7vx485t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7vx485t'
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+ERROR: [DRC 23-20] Rule violation (BIVB-1) Bank IO standard Support - Bank 37 has incompatible IO(s) because: The LVCMOS33 I/O standard is not supported.  Move the following ports or change their properties:  
+out[6]
+ERROR: [DRC 23-20] Rule violation (BIVB-1) Bank IO standard Support - Bank 38 has incompatible IO(s) because: The LVCMOS33 I/O standard is not supported.  Move the following ports or change their properties:  
+choose and clear
+ERROR: [DRC 23-20] Rule violation (BIVB-1) Bank IO standard Support - Bank 38 has incompatible IO(s) because: The LVCMOS33 I/O standard is not supported.  Move the following ports or change their properties:  
+control[0], control[3], out[2] and out[7]
+ERROR: [DRC 23-20] Rule violation (BIVB-1) Bank IO standard Support - Bank 39 has incompatible IO(s) because: The LVCMOS33 I/O standard is not supported.  Move the following ports or change their properties:  
+out[3]
+INFO: [Vivado_Tcl 4-198] DRC finished with 4 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+ERROR: [Vivado_Tcl 4-23] Error(s) found during DRC. Placer not run.
+INFO: [Common 17-83] Releasing license: Implementation
+31 Infos, 0 Warnings, 11 Critical Warnings and 5 Errors encountered.
+place_design failed
+place_design: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1260.695 ; gain = 1.969
+ERROR: [Common 17-39] 'place_design' failed due to earlier errors.
+
+INFO: [Common 17-206] Exiting Vivado at Wed Mar 08 23:16:20 2017...
